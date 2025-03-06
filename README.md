@@ -1,5 +1,5 @@
 # **Fortigate DNS Management Web Interface**  
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)  
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](license.txt)  
 A simple, web-based interface for **managing FortiGate DNS records** via the **Fortinet API**.
 
 ## **📌 Features**
@@ -93,7 +93,7 @@ By using or modifying this project, you must **credit the original author**.
 ---
 
 ## **📌 Author**
-👨‍💻 **Developed by:** [dskillin](https://github.com/dskillin)  
+👨‍💻 **Developed by:** [Dan Quigley-Skillin](https://github.com/dskillin)  
 🔗 **GitHub Repository:** [fortigate-dns](https://github.com/dskillin/fortigate-dns)  
 📅 **Year:** 2024
 
@@ -101,4 +101,3 @@ By using or modifying this project, you must **credit the original author**.
 
 🚀 **Now you’re ready to manage FortiGate DNS records effortlessly!**  
 🔥 **Star this repo if you find it useful!** ⭐  
-Let me know if you need any modifications. 😃
