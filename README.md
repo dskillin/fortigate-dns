@@ -1,4 +1,10 @@
 # fortigate-dns
+
+Allows for the creation of A and CNAME records
+PTR records will automatically create with A records
+Deletion of records
+Backup and Restore of all records.
+
 Set up DNS services on a fortigate interface.
 (I use a virtual interface and allow access from all internal VLAN)
 
