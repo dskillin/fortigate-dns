@@ -88,7 +88,7 @@ By using or modifying this project, you must **credit the original author**.
 🔹 **Fortinet Disclaimer:**  
 *"FortiGate" and "Fortinet" are trademarks of Fortinet, Inc. This project is **not affiliated with, endorsed by, or sponsored by Fortinet** in any way.*
 
-📜 **Full License Details**: [LICENSE.txt](LICENSE.txt)
+📜 **Full License Details**: [license.txt](license.txt)
 
 ---
 
