@@ -69,7 +69,7 @@ A simple, web-based interface for **managing FortiGate DNS records** via the **F
 ├── 📄 content-box2.php     # Add CNAME form
 ├── 📄 content-box3.php     # Backup & Restore functions
 ├── 📄 content-box4.php     # Signature & licensing
-└── 📄 LICENSE.txt          # MIT License (Attribution Required)
+└── 📄 license.txt          # MIT License (Attribution Required)
 ```
 
 ---
