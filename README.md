@@ -74,16 +74,16 @@ Failure to properly secure this application could expose **critical DNS configur
 ## **📌 Folder Structure**
 ```
 📂 fortigate-dns
-├── 📄 index.php            # Main web interface
-├── 📄 styles.css           # UI styles
-├── 📄 firewall_config.php  # API credentials (edit this file)
+├── 📄 index.php             # Main web interface
+├── 📄 styles.css            # UI styles
+├── 📄 firewall_config.php   # API credentials (edit this file)
 ├── 📄 fortinet_firewall.php # API functions
-├── 📄 content-left.php     # DNS records table
-├── 📄 content-box1.php     # Add A record form
-├── 📄 content-box2.php     # Add CNAME form
-├── 📄 content-box3.php     # Backup & Restore functions
-├── 📄 content-box4.php     # Signature & licensing
-└── 📄 LICENSE.txt          # MIT License (Attribution Required)
+├── 📄 content-left.php      # DNS records table
+├── 📄 content-box1.php      # Add A record form
+├── 📄 content-box2.php      # Add CNAME form
+├── 📄 content-box3.php      # Backup & Restore functions
+├── 📄 content-box4.php      # Signature & licensing
+└── 📄 license.txt           # MIT License (Attribution Required)
 ```
 
 ---
@@ -102,12 +102,12 @@ By using or modifying this project, you must **credit the original author**.
 🔹 **Fortinet Disclaimer:**  
 *"FortiGate" and "Fortinet" are trademarks of Fortinet, Inc. This project is **not affiliated with, endorsed by, or sponsored by Fortinet** in any way.*
 
-📜 **Full License Details**: [LICENSE.txt](LICENSE.txt)
+📜 **Full License Details**: [license.txt](license.txt)
 
 ---
 
 ## **📌 Author**
-👨‍💻 **Developed by:** [dskillin](https://github.com/dskillin)  
+👨‍💻 **Developed by:** [Dan Quigley-Skillin](https://github.com/dskillin)  
 🔗 **GitHub Repository:** [fortigate-dns](https://github.com/dskillin/fortigate-dns)  
 📅 **Year:** 2024
 
@@ -115,4 +115,3 @@ By using or modifying this project, you must **credit the original author**.
 
 🚀 **Now you’re ready to manage FortiGate DNS records effortlessly!**  
 🔥 **Star this repo if you find it useful!** ⭐  
-Let me know if you need any modifications. 😃
