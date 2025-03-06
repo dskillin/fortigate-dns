@@ -1,5 +1,5 @@
 # **Fortigate DNS Management Web Interface**  
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](license.txt)  
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)  
 A simple, web-based interface for **managing FortiGate DNS records** via the **Fortinet API**.
 
 ## **📌 Features**
@@ -9,6 +9,20 @@ A simple, web-based interface for **managing FortiGate DNS records** via the **F
 ✅ **Delete DNS Records** – Select multiple records and delete them with one click.  
 ✅ **Backup & Restore** – Save all DNS records as a JSON backup and restore when needed.  
 ✅ **Responsive UI** – Clean, structured layout with **FortiGate-inspired styling**.  
+
+---
+
+## **⚠️ Security Warning: Do Not Expose Publicly**
+🚨 **This application should NOT be hosted on a public-facing web server.**  
+It is designed for use on a **strictly controlled internal network** only.
+
+🔹 **Recommended Deployment:**
+- **Internal Web Server Only** – Deploy within a private network behind a firewall.  
+- **Restrict External Access** – Use IP restrictions or firewall rules to limit access.  
+- **Use Cloudflared for Secure Access** – If remote access is needed, consider using **Cloudflared** or a similar tunnel service.  
+- **Login System is in the To-Do List** – A login feature is planned but currently **not implemented**, requiring manual access control.
+
+Failure to properly secure this application could expose **critical DNS configurations** to unauthorized users.
 
 ---
 
@@ -69,7 +83,7 @@ A simple, web-based interface for **managing FortiGate DNS records** via the **F
 ├── 📄 content-box2.php     # Add CNAME form
 ├── 📄 content-box3.php     # Backup & Restore functions
 ├── 📄 content-box4.php     # Signature & licensing
-└── 📄 license.txt          # MIT License (Attribution Required)
+└── 📄 LICENSE.txt          # MIT License (Attribution Required)
 ```
 
 ---
@@ -88,16 +102,17 @@ By using or modifying this project, you must **credit the original author**.
 🔹 **Fortinet Disclaimer:**  
 *"FortiGate" and "Fortinet" are trademarks of Fortinet, Inc. This project is **not affiliated with, endorsed by, or sponsored by Fortinet** in any way.*
 
-📜 **Full License Details**: [license.txt](license.txt)
+📜 **Full License Details**: [LICENSE.txt](LICENSE.txt)
 
 ---
 
 ## **📌 Author**
-👨‍💻 **Developed by:** [Dan Quigley-Skillin](https://github.com/dskillin)  
+👨‍💻 **Developed by:** [dskillin](https://github.com/dskillin)  
 🔗 **GitHub Repository:** [fortigate-dns](https://github.com/dskillin/fortigate-dns)  
-📅 **Year:** 2025
+📅 **Year:** 2024
 
 ---
 
 🚀 **Now you’re ready to manage FortiGate DNS records effortlessly!**  
 🔥 **Star this repo if you find it useful!** ⭐  
+Let me know if you need any modifications. 😃
