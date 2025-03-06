@@ -1,0 +1,253 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Main Header */
+.header {
+    width: 95%;
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+/* Main Content Layout */
+.container {
+    display: flex;
+    width: 95%;
+    gap: 20px;
+    height: 80vh;
+}
+
+/* Left Section - Extend Height & Enable Scrolling */
+.left-section {
+    width: 66%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Scrollable Content Inside Left Section */
+.dns-table-container {
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+    max-height: calc(90vh - 80px); /* Adjusted for header & buttons */
+    padding-right: 5px;
+}
+
+/* Right Section */
+.right-section {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Green Headers for ALL Sections (Left & Right) */
+.section-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 95%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ensure Right Side Headers are Centered */
+.right-section .section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* Right Side Boxes */
+.box {
+    background-color: #f1f1f1;
+    text-align: center;
+    flex: 1;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Ensure DNS Table Fills Left Section */
+.dns-table-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fully Expand the Table to Match Section Header */
+.dns-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.dns-table th, .dns-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Alternating Row Colors */
+.dns-table tbody tr:nth-child(odd) {
+    background-color: #f5f5f5; /* Light grey */
+}
+
+.dns-table tbody tr:nth-child(even) {
+    background-color: #ffffff; /* White */
+}
+
+/* Button Container - Centers Buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* Center Buttons Inside Their Boxes */
+.box .button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center; /* Ensures text alignment */
+}
+
+/* Standardized Submit Buttons (Same Size as Left Button & Centered) */
+.submit-button, .delete-button, .add-button, .backup-button, .restore-button {
+    background-color: #d9534f; /* Fortinet Red */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Ensures uniform padding */
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 250px; /* Forces all buttons to match the size of "Delete Selected" */
+    text-align: center;
+    margin: 0 auto; /* Ensures proper centering */
+    display: flex;
+    justify-content: center; /* Ensures button text is centered */
+    align-items: center;
+}
+
+
+
+/* Hover Effect for All Submit Buttons */
+.submit-button:hover, .delete-button:hover, .add-button:hover, .backup-button:hover, .restore-button:hover {
+    background-color: #c9302c; /* Darker Red */
+}
+
+
+/* Box 1 & 2 Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Labels for Form Inputs */
+label {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Styling for Text Inputs & Dropdowns */
+select, input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Align File Upload Field */
+input[type="file"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Floating Header and Submit Button on Left */
+.left-section .section-header {
+    position: sticky;
+    top: 0;
+    background-color: #4CAF50;
+    z-index: 2;
+    width: 95%;
+}
+
+/* Positioning Delete Button to Always Be Visible */
+.left-section .button-container {
+    position: sticky;
+    bottom: 0;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Signature Block Styling */
+.signature-block {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    margin-top: auto;
+    width: 100%;
+}
+
+/* Style for License Link */
+.signature-block a {
+    color: #4CAF50; /* Match green header color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signature-block a:hover {
+    text-decoration: underline;
+}
