@@ -109,7 +109,7 @@ By using or modifying this project, you must **credit the original author**.
 ## **📌 Author**
 👨‍💻 **Developed by:** [Dan Quigley-Skillin](https://github.com/dskillin)  
 🔗 **GitHub Repository:** [fortigate-dns](https://github.com/dskillin/fortigate-dns)  
-📅 **Year:** 2024
+📅 **Year:** 2025
 
 ---
 
